@@ -1,0 +1,40 @@
+:root {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: greenyellow;
+  background-color: #242424;
+}
+
+.warning {
+  color: red;
+}
+
+.Button{
+  background-color: #242424; 
+  color: greenyellow; 
+  border: 2px solid greenyellow;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.Button:hover {
+  background-color: greenyellow;
+  color: #242424;
+}
+
+.title {
+  font-size: 200%;
+}
+
+.title, .warning, .temp, .time, .toxicity {
+  display: flex;
+  justify-content: center;
+}
